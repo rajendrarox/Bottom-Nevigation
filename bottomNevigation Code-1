@@ -1,0 +1,19 @@
+android.support.design.widget.BottomNavigationView btm= new android.support.design.widget.BottomNavigationView(MainActivity.this);
+btm.setLayoutParams(new ViewGroup.LayoutParams( ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
+
+
+
+linear1.addView(btm);
+linear1.setElevation(16);
+
+Menu menu = btm.getMenu();
+
+final int A = 0;
+final int B = 1;
+
+menu.add(Menu.NONE, A, Menu.NONE, "Home").setIcon(R.drawable.ic_bottom_home);
+
+menu.add(Menu.NONE, B, Menu.NONE, "Profile").setIcon(R.drawable.ic_bottom_profile);
+
+
+
