@@ -1,0 +1,12 @@
+btm.setOnNavigationItemSelectedListener(new  android.support.design.widget.BottomNavigationView.OnNavigationItemSelectedListener() {  @Override public boolean onNavigationItemSelected(final MenuItem item) {
+switch (item.getItemId()){ 
+case A: 
+_callHome();
+return true;
+case B:
+_callProfile();
+return true;
+default:
+return true;
+ } 
+} });
